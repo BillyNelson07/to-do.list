@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
             `;
-            alert("Tarefa adicionada com sucesso!");
             document.getElementById('areaTarefas').appendChild(tarefaEmSi);
             
             const botaoConcluir = tarefaEmSi.querySelector('.botaoConcluir');
